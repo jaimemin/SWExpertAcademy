@@ -37,8 +37,8 @@ int main(void)
 			if (state != sum % 2)
 			{
 				flag = false;
-
-				break;
+				
+				continue;
 			}
 
 			distance = max(distance, sum);
